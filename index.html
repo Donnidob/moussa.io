@@ -113,21 +113,38 @@
             </div>
         </section>
 
-    <section id="competence">
-        <h2 class="styled-title">Mon Programme</h2>
-        <div class="skills-container">
-            <div class="skill"><br>Investiture</div>
-            <div class="skill"><br>Conférences</div>
-            <div class="skill"><br>Débat / Slam</div>
-            <div class="skill"><br>Formations dans divers domaines<br>(Gratuit/Payant)</div>
-            <div class="skill">
-            <br>  Inter-classe(Basket-ball et Football)</div>
-            <div class="skill"><br>Voyage à : Koulikoro</div>
-            <div class="skill"><br>Journée Culturelle</div>
-            <div class="skill"><br>Beaucoup d'autres surprises</div>
-            <div class="skill"><br>Bal de fin d'année</div>
-        </div>
-    </section>
+        <section id="competence">
+            <h2 class="styled-title">Mon Programme</h2>
+            <div class="tabs-container">
+                <div class="tabs">
+                    <button class="tab" onclick="showTabContent('investiture')">Conférences-1</button>
+                    <button class="tab" onclick="showTabContent('conferences')">Formation-1</button>
+                    <button class="tab" onclick="showTabContent('slam')">Inter-Classes</button>
+                    <button class="tab" onclick="showTabContent('formations')">Formation-2</button>
+                    <button class="tab" onclick="showTabContent('interclasse')">Journée Culturelle (J-C)</button>
+                    <button class="tab" onclick="showTabContent('voyage')">Conférence-2</button>
+                    <button class="tab" onclick="showTabContent('culture')">Voyage à Koulikoro</button>
+                    <button class="tab" onclick="showTabContent('surprises')">Formation-3</button>
+                    <button class="tab" onclick="showTabContent('surprise')">Surprises</button>
+                    <button class="tab" onclick="showTabContent('bal')">Bal de fin d'année</button>
+                </div>
+                <div class="tab-content" id="investiture">04-01-2025 : Conférence</div>
+                <div class="tab-content" id="conferences" style="display: none;">11-01-2025 : Formation en Multimédia</div>
+                <div class="tab-content" id="slam" style="display: none;">13-01-2025 : (Basket-ball et Football)...</div>
+                <div class="tab-content" id="formations" style="display: none;">
+                    18-01-2025 : Formation sur les techniques de prise de parole devant le public
+                </div>
+                <div class="tab-content" id="interclasse" style="display: none;">
+                    01-02-2025 : Journée Culturelle (J-C)
+                </div>
+                <div class="tab-content" id="voyage" style="display: none;">12-04-2025 : Conférence</div>
+                <div class="tab-content" id="culture" style="display: none;">19-04-2025 : Voyage à Koulikoro</div>
+                <div class="tab-content" id="surprises" style="display: none;">26-04-2025 : Formation sur les Techniques de maitrise des intelligenances artificielles (AI)</div>
+                <div class="tab-content" id="surprise" style="display: none;">D'autres Surprises</div>
+                <div class="tab-content" id="bal" style="display: none;">12-07-2025 : Bal de fin d'année</div>
+            </div>
+        </section>
+        
      
     <section class="position-relative">
         <div class="video-background">
